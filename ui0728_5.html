@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul {
+            overflow: hidden;
+        }
+        li {
+            list-style: none;
+            float: left; padding: 15px;
+        }
+        li:first-child {
+            border-radius: 10px 0 0 10px;
+        }
+        li:last-child {
+            border-radius: 0 10px 10px 0;
+        }
+        li:nth-child(2n) {
+            background-color: ghostwhite;
+            color: coral;
+        }
+        li:nth-child(2n+1) {
+            background-color: coral;
+            color: ghostwhite;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>인삼차1</li>
+        <li>인삼차2</li>
+        <li>인삼차3</li>
+        <li>인삼차4</li>
+        <li>인삼차5</li>
+        <li>인삼차6</li>
+        <li>인삼차7</li>
+    </ul>
+</body>
+</html>
