@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            margin-top: 50px;
+            margin-left: 50px;
+        }
+        .top_bar {
+            background: red;
+            position: fixed;
+            left: 0;
+            top: 0; 
+            right: 0; /* 오른쪽 공간 없음*/
+            height: 50px;
+        }
+        .left_bar {
+            background: blue;
+            position: fixed;
+            left: 0;
+            top: 50px; 
+            bottom: 0;
+            width: 50px;
+        }
+        h1 {
+            width: 300px;
+        }
+        .ellipsis {
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+    </style>
+</head>
+<body>
+    <div class="top_bar">top</div>
+    <div class="left_bar">left</div>
+    <div class="container">
+        <p>저도 git을 이용해 본 경험이 있고, private한 저장소도 몇 번 만져볼 기회가 생겨 다른 참가자 분들과 비교했을때 상대적으로 빈번하게 접했다고 할 수 있었겠지만 그때그때 필요에 의한 기능만 구글링을 통해 찾아보고, 그나마도 많이 잊어버린 상태였기에 체계적으로 공부할 수 있는 기회가 생긴 것에 매우 감사하게 생각하고 있습니다.</p>
+        <p>Git은 여러가지 프로그램을 통해 사용할 수 있습니다. 깔끔하고 뛰어난 GUI를 가진 Sourcetree 와 같은 프로그램을 사용할 수도 있겠지만 이 글에서는 CLI (Command Line Interface) 를 사용하여 git을 사용해보겠습니다.</p>
+        <p>여기서 commit이란 History의 한 단위를 나타낸다고 생각하시면 됩니다. 어떤 기능의 추가, 수정, 삭제 등의 개발 역사를 구성하는 한 개의 블럭이라고 할까요.</p>
+    </div>
+    <h1 class="ellipsis">Lorem ipsum dolor sit amet</h1>
+</body>
+</html>
